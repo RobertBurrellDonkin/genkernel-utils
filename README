@@ -1,3 +1,5 @@
+(This fork tracks some local changes for use in Gentoo when not using genkernel)
+
 Gentoo's genkernel is a wonderful tool that ease kernel compilation process.
 This tool can be extended in order to provide the following features: 
 
