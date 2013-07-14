@@ -765,7 +765,6 @@ f_setup_initramfs() {
 	[ -e /linuxrc -a "$0" = "/init" ] && rm /linuxrc
 
 	[ ! -d /tmp ] && mkdir /tmp
-	[ ! -d /var/run ] && mkdir -p /var/run
 	[ ! -d "${cfg_remmnt}" ] && mkdir -p "${cfg_remmnt}" 
 
 	[ -e /dev/tty ] && rm /dev/tty
