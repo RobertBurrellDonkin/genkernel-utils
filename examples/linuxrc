@@ -680,6 +680,7 @@ f_opendevices_loopaes() {
 }
 
 f_opendevices_dmcrypt() {
+	echo "Opening dmcrypt devices"
 	local error=0
 
 	#
@@ -731,6 +732,7 @@ f_opendevices_dmcrypt() {
 }
 
 f_opendevices() {
+	echo "Open devices"
 	local error=0
 
 	if [ "${cfg_dmcrypt}" != 0 ]; then
